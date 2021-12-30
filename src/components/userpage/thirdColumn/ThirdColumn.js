@@ -75,13 +75,12 @@ export default function ThirdColumn(props) {
 
                     {clicked ?
                         <>
-                            <FriendSuggestions handleNewFriendAdded={handleNewFriendAdded} frs={friends.filter(f => !initialFriends.includes(f))} />
+                            <FriendSuggestions handleNewFriendAdded={handleNewFriendAdded} frs={friends.filter(f => !initialFriends.includes(f))}  />
                             <button className='btn btn-info' onClick={(e) => {
                                 if (e.target.previousElementSibling.firstChild.value) {
                                     setInitialFriends([
                                         ...initialFriends, e.target.previousElementSibling.firstChild.value
                                     ])
-                                    
                                 }
                                 setClicked(false)
                             }}>
@@ -91,9 +90,7 @@ export default function ThirdColumn(props) {
                         </>
                         : ''
                     }
-
-
-                </div>
+                </div> 
             </div>
 
         </div>
