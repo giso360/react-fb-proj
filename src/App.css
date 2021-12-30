@@ -201,3 +201,16 @@ a {
   margin-right: 0px;
   width: 100%;
 }
+
+
+ 
+
+/* tooltip */
+
+.tippy-tooltip {
+  background-color: cadetblue;
+  border-style:  solid;
+
+
+
+}
