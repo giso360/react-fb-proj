@@ -17,10 +17,11 @@ export default function UserPage(props) {
 
 
     useEffect(() => {
+        console.log(`cookie value is: ${document.cookie.substring(9)}`);
         if (usnFromCookie != username) {
-            document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
             navigate('/')
         }
+        document.cookie = "username=;expires=" + new Date(0).toUTCString()
     }, [])
 
     return (
