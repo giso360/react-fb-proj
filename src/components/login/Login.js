@@ -26,6 +26,7 @@ export default function Login(props) {
                     usn: document.getElementById('userField').value
                 }
             )
+            document.cookie = `username=${state.usn}`
             navigate(`/user/${state.usn}`)
         } else {
             setState(
