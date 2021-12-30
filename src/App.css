@@ -78,7 +78,7 @@ a {
   justify-content: center;
 }
 
-.first-column-container, .second-column-container {
+.first-column-container, .second-column-container, .third-column-container {
   margin-top: 80px;
   justify-content: center;
 }

@@ -3,6 +3,7 @@ import PageNavbar from '../navbar/PageNavbar';
 import FirstColumn from './firstColumn/FirstColumn';
 import SecondColumn from './secondColumn/SecondColumn';
 import React from 'react'
+import ThirdColumn from './thirdColumn/ThirdColumn';
 
 export default function UserPage(props) {
 
@@ -16,6 +17,7 @@ export default function UserPage(props) {
                     <PageNavbar />
                     <FirstColumn />
                     <SecondColumn />
+                    <ThirdColumn />
                 </div>
             </div>
     )
