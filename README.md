@@ -14,14 +14,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 5. Open another terminal session and navigate inside the root folder where react-fb-proj is located 
 
-6. Issue command `npm start`
+6. Issue command `npm install`
 
-7. There is already a user registered with credentials: username: peoplecert / password: 123
+7. Issue command `npm start`
 
-8. Login with these credentials to view the feed of posts and explore the functionalities of the project
+8. There is already a user registered with credentials: username: **peoplecert** / password: **123**
 
-9. Alternatively, you can create a new user by clicking the registration link and create a post feed from scratch
+9. Login with these credentials to view the feed of posts and explore the functionalities of the project
 
-10. Enjoy !!!
+10. Alternatively, you can create a new user by clicking the registration link and create a post feed from scratch
+
+11. Enjoy !!!
 
     ​
