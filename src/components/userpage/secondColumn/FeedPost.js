@@ -21,7 +21,7 @@ export default function FeedPost() {
 
         const response = await axios.get('http://localhost:3002/posts');
         if (response.data.length > 0) {
-            const userPosts = response.data.filter(post => post.user == state.user).map(post => ({ ...post, likeButtonBefore: '-', shareButtonBefore: '-' }))
+            const userPosts = response.data.filter(post => post.user === state.user).map(post => ({ ...post, likeButtonBefore: '-', shareButtonBefore: '-' }))
             setState({
                 ...state,
                 posts: [...userPosts]
@@ -63,7 +63,7 @@ export default function FeedPost() {
         console.log(newPost);
         setState({
             ...state,
-            posts: [...state.posts, { ...newPost }]
+            posts: [{ ...newPost }, ...state.posts]
         })
     }, [newPost])
 
