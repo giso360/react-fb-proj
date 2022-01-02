@@ -18,7 +18,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 7. There is already a user registered with credentials: username: peoplecert / password: 123
 
-8. Login with these credentials to view the feed of post and explore the functionalities of the project
+8. Login with these credentials to view the feed of posts and explore the functionalities of the project
 
 9. Alternatively, you can create a new user by clicking the registration link and create a post feed from scratch
 
