@@ -67,7 +67,7 @@ export default function ThirdColumn(props) {
                     <h4>Friends</h4>
                     <ul>
 
-                        {items}
+                        { items }
 
                     </ul>
 
