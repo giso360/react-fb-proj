@@ -1,3 +1,6 @@
+
+/* From Guidelines */
+
 a {
   color: #3b5998;
 }
@@ -29,4 +32,185 @@ a {
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
   color: #fff;
+}
+
+
+
+/* End From Guidelines */
+
+
+/* My CSS */
+
+.login-container  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  min-width: 30%;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-width: 100%;
+}
+
+.register-form {
+  min-width: 30%;
+}
+
+.login-btn {
+  width: 100%;
+}
+
+.attempts, .registration-text {
+  text-align: center;
+  font-size: larger;
+}
+
+.panel-default, .profile-panel {
+  display: flex;
+  justify-content: center;
+}
+
+.first-column-container, .second-column-container, .third-column-container {
+  margin-top: 80px;
+  justify-content: center;
+}
+
+.user-profile-container {
+  text-align: center;
+  justify-content: normal;
+}
+
+.panel-button-like {
+  margin-left: 0px;
+  margin-top: 10px;
+  justify-content: left;
+}
+
+.panel-button-share {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.profile-buttons-container {
+  justify-content: left;
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.panel-profile-body {
+  padding: 0px;
+}
+
+.feed-title {
+  margin-left: 10px;
+}
+
+.feed-text {
+  margin-left: 10px;
+}
+
+.feed-post-container {
+  width: 100%;
+}
+
+.feed-buttons {
+  background-color: #f5f5f5;
+  margin-top: 20px;
+}
+
+.feed-button-one {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.feed-button-two {
+  margin-left: 440px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.unclickable {
+
+  pointer-events: none
+}
+
+
+
+
+
+/* datepicker */
+
+
+
+
+/* The Modal  */
+/* Modal Header */
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Footer */
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+
+
+
+
+
+
+.card-img-top {
+  background-size: cover;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+
+
+ 
+
+/* tooltip */
+
+.tippy-tooltip {
+  background-color: cadetblue;
+  border-style:  solid;
+
+
+
 }
