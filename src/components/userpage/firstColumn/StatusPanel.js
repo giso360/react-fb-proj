@@ -41,6 +41,16 @@ export default function StatusPanel(props) {
         })
     }
 
+    const handleClickCancel = (e) => {
+        e.preventDefault()
+        document.getElementById("status").value = ''
+        document.getElementById("loc").value = ''
+        setUserProfile({
+            ...userProfile,
+            editProfile: false
+        })
+    }
+
     // useEffect(() => {
     //     if (focusDiv != null) {
     //         focusDiv.current.focus()
@@ -55,6 +65,7 @@ export default function StatusPanel(props) {
                         handleMaritalStatusChange={handleMaritalStatusChange}
                         handleLocationChange={handleLocationChange}
                         handleClick={handleClick}
+                        handleClickCancel={handleClickCancel}
                     /> : ''
             }
         </>

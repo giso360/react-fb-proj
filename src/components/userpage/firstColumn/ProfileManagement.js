@@ -35,6 +35,7 @@ export default function ProfileManagement(props) {
                     </div>
                     <div className="form-group">
                         <button className='btn btn-primary' style={buttonStyle} onClick={props.handleClick} ref={ ref }>Save</button>
+                        <button className='btn btn-info' style={buttonStyle} onClick={props.handleClickCancel} ref={ ref }>Cancel</button>
                     </div>
                 </form>
             </div>
